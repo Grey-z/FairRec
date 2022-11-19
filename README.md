@@ -18,13 +18,16 @@ tensorflow==2.3.0
 - **data** : The processed data of four datasets (MovieLens, LFM360K, BlackFriday and Amazon).
 - **model** : The trained model (Wide&Deep, DeepFM, DCN and FGCNN) based on four datasets.
 - **config.json**: File for configuration parameters.
+- **data_process_lfm360k.py**: An examples of data processing for LFM360K.
+- **example_testsgd.py** : An example for testsgd.
+- **example_themis.py** : An example for themis.
 - **fairrec.py** : Our FairRec testing framework.
-- **run_fairrec.py** :  An example for FairRec.
+- **model_train.py**: An examples of model training for DeepFM on LFM360K.
 - **rec_metrics.py** : The metrics used for testing.
+- **run.sh**: Command to run FairRec.
+- **run_fairrec.py** :  An example for FairRec.
 - **themis.py** : An implementation of [1] for recommender system.
 - **testsgd.py** : An implementation of [2] for recommender system.
-- **example_themis.py** : An example for themis.
-- **example_testsgd.py** : An example for testsgd.
 - **utilis.py** : General purpose functions.
 
 ## Reference:
