@@ -17,8 +17,15 @@ tensorflow==2.3.0
 
 - **data** : The processed data of four datasets (MovieLens, LFM360K, BlackFriday and Amazon).
 - **model** : The trained model (Wide&Deep, DeepFM, DCN and FGCNN) based on four datasets.
-- **fair_rec** : Our FairRec testing framework,
-- **baseline** : An implementation of [1] and [2] for recommender system.
+- **config.json**: File for configuration parameters.
+- **fairrec.py** : Our FairRec testing framework.
+- **run_fairrec.py** :  An example for FairRec.
+- **rec_metrics.py** : The metrics used for testing.
+- **themis.py** : An implementation of [1] for recommender system.
+- **testsgd.py** : An implementation of [2] for recommender system.
+- **example_themis.py** : An example for themis.
+- **example_testsgd.py** : An example for testsgd.
+- **utilis.py** : General purpose functions.
 
 ## Reference:
 [1] Sainyam Galhotra, Yuriy Brun, and Alexandra Meliou. 2017. Fairness testing: testing software for discrimination. In Proceedings of the 2017 11th Joint meeting on foundations of software engineering. 498–510
