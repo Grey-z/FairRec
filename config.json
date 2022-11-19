@@ -1,0 +1,56 @@
+{
+    "themis": {
+        "model_params": {
+            "model_name": "deepfm", 
+            "embedding_dim": 4, 
+            "batch_size": 256
+        }, 
+        "data_params": {
+            "dataset": "last-fm", 
+            "data_dir": "./data/"
+        }, 
+        "test_info": {
+            "sensitive_features": ["gender", "age", "country"], 
+            "metric": "mrr", 
+            "threshold": 0.001
+        }
+    }, 
+    "testsgd": {
+        "model_params": {
+            "model_name": "deepfm", 
+            "embedding_dim": 4, 
+            "batch_size": 256
+        }, 
+        "data_params": {
+            "dataset": "last-fm", 
+            "data_dir": "./data/"
+        }, 
+        "test_info": {
+            "sensitive_features": ["gender", "age", "country"], 
+            "metric": "mrr",
+            "threshold": 0.01
+        }
+    }, 
+    "fairrec": {
+        "model_params": {
+            "model_name": "deepfm",
+            "embedding_dim": 4, 
+            "batch_size": 256
+        }, 
+        "data_params": {
+            "dataset": "last-fm", 
+            "data_dir": "./data/"
+        }, 
+        "test_info": {
+            "sensitive_features": ["gender", "age", "country"], 
+            "metric": "mrr", 
+            "threshold": 0.001
+        }, 
+        "dpso_params": {
+            "epsilon": 0.005, 
+            "iter": 20, 
+            "v_low": -2, 
+            "v_high": 2
+        }
+    }
+}
