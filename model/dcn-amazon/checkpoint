@@ -1,0 +1,2 @@
+model_checkpoint_path: "dcn-amazon-liuyi.ckpt"
+all_model_checkpoint_paths: "dcn-amazon-liuyi.ckpt"

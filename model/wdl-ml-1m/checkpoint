@@ -1,0 +1,2 @@
+model_checkpoint_path: "wdl-ml-1m-liuyi.ckpt"
+all_model_checkpoint_paths: "wdl-ml-1m-liuyi.ckpt"

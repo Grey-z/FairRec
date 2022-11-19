@@ -1,0 +1,2 @@
+model_checkpoint_path: "fgcnn-ml-1m-liuyi.ckpt"
+all_model_checkpoint_paths: "fgcnn-ml-1m-liuyi.ckpt"

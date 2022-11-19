@@ -1,0 +1,2 @@
+model_checkpoint_path: "wdl-last-fm-liuyi.ckpt"
+all_model_checkpoint_paths: "wdl-last-fm-liuyi.ckpt"

@@ -1,0 +1,2 @@
+model_checkpoint_path: "fgcnn-last-fm-liuyi.ckpt"
+all_model_checkpoint_paths: "fgcnn-last-fm-liuyi.ckpt"

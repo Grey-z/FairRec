@@ -1,0 +1,2 @@
+model_checkpoint_path: "wdl-black-fri-liuyi.ckpt"
+all_model_checkpoint_paths: "wdl-black-fri-liuyi.ckpt"

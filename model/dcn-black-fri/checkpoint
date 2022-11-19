@@ -1,0 +1,2 @@
+model_checkpoint_path: "dcn-black-fri-liuyi.ckpt"
+all_model_checkpoint_paths: "dcn-black-fri-liuyi.ckpt"

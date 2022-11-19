@@ -1,0 +1,2 @@
+model_checkpoint_path: "deepfm-amazon-liuyi.ckpt"
+all_model_checkpoint_paths: "deepfm-amazon-liuyi.ckpt"

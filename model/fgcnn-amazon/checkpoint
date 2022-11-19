@@ -1,0 +1,2 @@
+model_checkpoint_path: "fgcnn-amazon-liuyi.ckpt"
+all_model_checkpoint_paths: "fgcnn-amazon-liuyi.ckpt"

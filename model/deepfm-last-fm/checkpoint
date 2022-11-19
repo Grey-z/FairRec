@@ -1,0 +1,2 @@
+model_checkpoint_path: "deepfm-last-fm-liuyi.ckpt"
+all_model_checkpoint_paths: "deepfm-last-fm-liuyi.ckpt"
