@@ -15,7 +15,6 @@ tensorflow==2.3.0
 
 # Files
 
-- **data** : The processed data of four datasets (MovieLens, LFM360K, BlackFriday and Amazon).
 - **model** : The trained model (Wide&Deep, DeepFM, DCN and FGCNN) based on four datasets.
 - **config.json**: File for configuration parameters.
 - **data_process_lfm360k.py**: An examples of data processing for LFM360K.
@@ -37,8 +36,10 @@ tensorflow==2.3.0
 
 [3] Weichen Shen. (2017). DeepCTR: Easy-to-use,Modular and Extendible package of deep-learning based CTR models. https://github.com/shenweichen/deepctr.
 
-# Data Format
-
+# Data 
+Subject to file size limitations, the processed data used in this work can be downloaded from the following links, including four datasets, MovieLens, BlackFriday, LFM360K and Amazon.
+https://drive.google.com/drive/folders/1fzSaUSqns1tRKG_atsu_rxwFvMe1F4XQ?usp=sharing
+## Data Format
 ![data](https://user-images.githubusercontent.com/117908227/202380517-a7638d84-ba6d-415b-9f2e-a17dc345b2c1.jpg)
 
 - user_id : The id of each user.
@@ -46,3 +47,4 @@ tensorflow==2.3.0
 - gender/age/country : The sensitive attributes.
 - cate : Required to calculate the metric of $UF_{urd}$.
 - popularity/user_pop: Required to calculate the metric of $UF_{urp}$
+
