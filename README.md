@@ -2,6 +2,32 @@
 
 This repository contains code for the paper **FairRec: Fairness Testing for Deep Recommender Systems**
 
+# Instruction
+1. Install the related environment configuration and dependency packages.
+2. Prepare datasets and models to be tested.
+3. Modify the config.json.
+
+- To select the datasets for testing, modify the data_params/dataset.(Note: 'ml-1m' denotes MovieLens-1M, 'last-fm' denotes LFM360K, 'black-fri' denotes BlackFriday and 'amazon' denotes Amazon).
+
+- To select the model for testing, modify the model_params/model_name.(Note: 'wdl' denotes Wide&Deep, 'deepfm' denotes 'DeepFM', 'dcn' denotes 'DCN' and 'fgcnn' denotes FGCNN).
+
+- Select the metric for testing, modify the test_info/metric. (Note: 'auc' denotes AUC, 'mrr' denotes 'MRR', 'ndcg' denotes 'NDCG', 'diversity' denotes 'URD' and popularity denotes 'URP').
+
+- Select sensitive features you interested for testing, modify test_info/sensitive_features.
+
+- Modify the params for dpso. (Note: For small dataset (with group less than 1000), we recommend that the initial number of particles be no less than 50 ).
+
+4. run the run_fairrec.py.
+
+You can also use FairRec to test your own datasets and models using any metrics.
+1. Refer to data_process_lfm360k.py to process the new dataset.
+2. Refer to model_train.py to train the new models.
+3. Modify the utilis.py to load your own datasets and models.
+4. Modify the rec_metrics.py to add the new metrics for testing.
+5. Modify the fairrec.py/def get_score() to use the new metrics.
+
+
+
 # Environment
 This project is based on **Python 3.8.1** and **Tensorflow 2.3.0**.
 
