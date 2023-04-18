@@ -1,7 +1,7 @@
 # Introduction 
 
-This repository contains code for the paper **FairRec: Fairness Testing for Deep Recommender Systems**
-
+This repository contains code for the paper **FairRec: Fairness Testing for Deep Recommender Systems**, which has been accepted by ISSTA 2023.
+Pre-printed versions of the paper are available from https://arxiv.org/abs/2304.07030
 # Instruction
 1. Install the related environment configuration and dependency packages.
 2. Prepare datasets and models to be tested.
